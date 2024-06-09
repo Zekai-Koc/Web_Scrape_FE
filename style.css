@@ -1,0 +1,54 @@
+body {
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   height: 100vh;
+   margin: 0;
+   padding-top: 50px;
+}
+
+.card {
+   background: #b0f79b;
+   border-radius: 8px;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: stretch;
+   width: 100%;
+   max-width: 600px;
+   border: 2px solid black;
+}
+
+.input-group {
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+label {
+   margin-right: 10px;
+   white-space: nowrap;
+}
+
+input {
+   flex: 1;
+   padding: 10px;
+   font-size: 16px;
+}
+
+button {
+   width: 100%;
+   padding: 10px;
+   background-color: #4caf50;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+button:hover {
+   background-color: #45a049;
+}
