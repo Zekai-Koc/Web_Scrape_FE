@@ -32,11 +32,11 @@ label {
    white-space: nowrap;
 }
 
-input {
+/* input {
    flex: 1;
    padding: 10px;
    font-size: 16px;
-}
+} */
 
 /* button {
    width: 100%;
